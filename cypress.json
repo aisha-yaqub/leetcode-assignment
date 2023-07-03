@@ -1,0 +1,16 @@
+{
+    "baseUrl": "https://example.cypress.io",
+    "$schema": "https://on.cypress.io/cypress.schema.json",
+    "projectId": "esyku6",
+    "video": false,
+    "watchForFileChanges": true,
+    "experimentalStudio": true,
+    "screenshotsFolder": "cypress/screenshots",
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
+    "trashAssetsBeforeRuns": true,
+    "env": {
+        "TAGS": "(@this and not @Ignore)"
+    }
+}
+ 
